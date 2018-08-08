@@ -6,10 +6,12 @@
 * Provide the credentials of the account from which you wish to send the emails in "mail.php".
 
 Run from terminal as:
-php mail.php file_contain_recipeient_data template.html mail_subject
+
+	php mail.php file_contain_recipeient_data template.html mail_subject
 
 Format for the data file is as:
-Some Name,someoneelse@example.com
+
+	Some Name,someoneelse@example.com
 
 The script uses PHPMailer. A classic email sending library for PHP 
 Link: https://github.com/PHPMailer/PHPMailer
