@@ -18,10 +18,24 @@
 	$mail->From = $email;
 
 	// csv input
+	if(!isset($argv[1])){
+		echo "Input Data list Not Specified";
+		die();
+	}
 	$toReadFile = trim($argv[1]);
+
 	// mail template\content
+	if(!isset($argv[2])){
+		echo "Input Mail template Not Specified";
+		die();
+	}
 	$mailTemplate = trim($argv[2]);
+	
 	// mail subject
+	if(!isset($argv[3])){
+		echo "Subject for mail Not Specified";
+		die();
+	}
 	$subject = trim($argv[3]);
 
     $fh = fopen($toReadFile,'r');
