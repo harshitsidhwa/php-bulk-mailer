@@ -13,5 +13,5 @@ Format for the data file is as:
 
 	Some Name,someoneelse@example.com
 
-The script uses PHPMailer. A classic email sending library for PHP 
+The script uses PHPMailer. A classic email sending library for PHP.
 Link: https://github.com/PHPMailer/PHPMailer
